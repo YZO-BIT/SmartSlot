@@ -1,0 +1,53 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+application-local.properties
+application-dev.properties
+application-prod.properties
+secrets.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.zip
+*.tar.gz
+*.rar
+!**/frontend/node_modules/**
+*.jks
+*.keystore
+
+# OS
+*.log
+Thumbs.db
+.DS_Store
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
