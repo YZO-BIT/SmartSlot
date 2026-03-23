@@ -443,32 +443,6 @@ We believe in collaborative scheduling!
 | **v2.5** | React Frontend Dashboard | Q1 2027 |
 | **v3.0** | Mobile App + Analytics | Q2 2027 |
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for full details.
-
-**TL;DR**: You can use, modify, and distribute SmartSlot freely, including in commercial projects.
-
----
-
-## 💬 Get In Touch
-
-- 📧 **Email**: [your-email@example.com]
-- 🐦 **Twitter**: [@SmartSlotGen]
-- 💼 **LinkedIn**: [Your LinkedIn Profile]
-- 🐛 **Issues**: [Report bugs here](https://github.com/YZO-BIT/SmartSlot/issues)
-
----
-
-## 🙏 Acknowledgments
-
-- Built with ❤️ by developers who've suffered through manual timetabling
-- Inspired by real scheduling challenges in educational institutions
-- Thanks to the Spring Boot and PostgreSQL communities
-
----
 
 <div align="center">
 
