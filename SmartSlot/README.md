@@ -1,13 +1,5 @@
 # 🎓 SmartSlot: Intelligent College Timetable Generation Engine
 
-[![Java](https://img.shields.io/badge/Java-21+-orange?style=flat&logo=java)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.3-brightgreen?style=flat&logo=springboot)](https://spring.io/projects/spring-boot)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue?style=flat&logo=postgresql)](https://www.postgresql.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active%20Development-yellow)](https://github.com/YZO-BIT/SmartSlot)
-
----
-
 ## 🚀 The Problem We Solve
 
 Every semester, college administrators face a **scheduling nightmare**: juggling hundreds of constraints simultaneously while avoiding the dreaded scenario where a teacher is booked in two classrooms at the same time, or a section is forced into conflicting classes. 
@@ -452,32 +444,6 @@ We believe in collaborative scheduling!
 | **v2.5** | React Frontend Dashboard | Q1 2027 |
 | **v3.0** | Mobile App + Analytics | Q2 2027 |
 
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for full details.
-
-**TL;DR**: You can use, modify, and distribute SmartSlot freely, including in commercial projects.
-
----
-
-## 💬 Get In Touch
-
-- 📧 **Email**: [your-email@example.com]
-- 🐦 **Twitter**: [@SmartSlotGen]
-- 💼 **LinkedIn**: [Your LinkedIn Profile]
-- 🐛 **Issues**: [Report bugs here](https://github.com/YZO-BIT/SmartSlot/issues)
-
----
-
-## 🙏 Acknowledgments
-
-- Built with ❤️ by developers who've suffered through manual timetabling
-- Inspired by real scheduling challenges in educational institutions
-- Thanks to the Spring Boot and PostgreSQL communities
-
----
 
 <div align="center">
 
