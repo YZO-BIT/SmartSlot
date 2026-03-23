@@ -62,7 +62,7 @@ The crown jewel—bi-directional conflict detection for sophisticated grouping s
 - **Multi-Section Electives**
   - Combine students from multiple sections into specialized electives (AI, Cloud Computing, etc.)
   - Dynamically calculate total student count from all participating sections
-  - Example: CSE-A (45) + CSE-B (48) + CSE-C (42) = Elective Group with 135 students
+  - Example: A1 (68) + A2 (70) + B1 (68) = Elective Group with 206 students
 
 - **Bi-Directional Conflict Detection**
   - **Condition A**: Detects if any section in an elective group already has a standard class scheduled
@@ -71,8 +71,8 @@ The crown jewel—bi-directional conflict detection for sophisticated grouping s
 
 - **Real-World Example**
   ```
-  Teacher tries to book "Cloud Computing" elective (CSE-A, CSE-B, CSE-C) at 2 PM
-  ❌ BLOCKED: CSE-B already has "Database Management" at 2 PM
+  Teacher tries to book "Cloud Computing" elective (A1, A2, B1) at 2 PM
+  ❌ BLOCKED: A2 already has "Database Management" at 2 PM
   SmartSlot prevents the booking instantly with a clear reason
   ```
 
@@ -368,9 +368,10 @@ On application startup, **DataInitializer** automatically populates the database
   - Expertise: Software Engineering, Design Patterns
 
 ### 🎓 Sections
-- **CSE-A**: 45 students
-- **CSE-B**: 48 students
-- **CSE-C**: 42 students
+- **A1**: 68 students
+- **A2**: 70 students
+- **B1**: 68 students
+- **B2**: 72 students
 
 ### 📖 Subjects
 **Core Subjects:**
@@ -384,8 +385,8 @@ On application startup, **DataInitializer** automatically populates the database
 - Cloud Computing (3 lectures/week, flexible)
 
 ### 🔗 Elective Groups
-- **G1 - Premium Electives**: CSE-A + CSE-B + CSE-C = **135 students**
-- **G2 - Advanced Track**: CSE-A + CSE-B = **93 students**
+- **G1 - Premium Electives**: A1 + A2 + B1 = **206 students**
+- **G2 - Advanced Track**: A1 + A2 = **138 students**
 
 ---
 

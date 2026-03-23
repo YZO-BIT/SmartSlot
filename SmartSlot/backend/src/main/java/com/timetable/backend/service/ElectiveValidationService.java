@@ -156,7 +156,6 @@ public class ElectiveValidationService {
 
         return report;
     }
-
     /**
      * Comprehensive validation for standard section bookings when subject might be elective
      *
