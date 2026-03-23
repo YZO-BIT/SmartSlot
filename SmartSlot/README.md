@@ -1,13 +1,5 @@
 # 🎓 SmartSlot: Intelligent College Timetable Generation Engine
 
-[![Java](https://img.shields.io/badge/Java-21+-orange?style=flat&logo=java)](https://www.oracle.com/java/)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.3-brightgreen?style=flat&logo=springboot)](https://spring.io/projects/spring-boot)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15+-blue?style=flat&logo=postgresql)](https://www.postgresql.org/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Active%20Development-yellow)](https://github.com/YZO-BIT/SmartSlot)
-
----
-
 ## 🚀 The Problem We Solve
 
 Every semester, college administrators face a **scheduling nightmare**: juggling hundreds of constraints simultaneously while avoiding the dreaded scenario where a teacher is booked in two classrooms at the same time, or a section is forced into conflicting classes. 
