@@ -428,7 +428,6 @@ GET    /api/validate/teachers
 - **Drag-and-Drop:** Reschedule by dragging bookings
 - **Real-Time Validation:** Show errors as you type
 - **Mobile Responsive:** Works on desktop and tablet
-- **Dark Mode:** Support both light and dark themes (optional)
 
 ---
 
