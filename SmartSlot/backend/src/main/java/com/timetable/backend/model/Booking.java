@@ -51,3 +51,4 @@ public class Booking {
         return this.section != null && this.electiveGroup == null;
     }
 }
+/**this improves the overall workflow of the bookings*/
