@@ -22,3 +22,4 @@ public class Room {
     @Column(nullable = false)
     private RoomType roomType;
 }
+#lulu
