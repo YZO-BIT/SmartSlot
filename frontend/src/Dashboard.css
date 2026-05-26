@@ -1,0 +1,253 @@
+/* ===== SIDEBAR LAYOUT ===== */
+.dashboard-wrapper {
+  display: flex;
+  min-height: 100vh;
+  background: #f1f5f9;
+  width: 100%;
+}
+
+.sidebar {
+  width: 200px;
+  background: linear-gradient(180deg, #064e3b 0%, #10b981 100%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  box-shadow: 4px 0 20px rgba(0,0,0,0.15);
+  flex-shrink: 0;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #fff;
+  padding: 20px 16px 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+  margin: 0;
+  background: linear-gradient(90deg, #34d399, #10b981);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 12px 0;
+  margin: 0;
+  flex: 1;
+}
+
+.sidebar ul li {
+  padding: 0;
+}
+
+.sidebar ul li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  color: rgba(255,255,255,0.7) !important;
+  text-decoration: none !important;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.sidebar ul li a:hover {
+  background: rgba(255,255,255,0.06);
+  color: #fff !important;
+  border-left-color: #34d399;
+}
+
+.sidebar ul li a.active {
+  background: rgba(16,185,129,0.15);
+  color: #fff !important;
+  border-left-color: #34d399;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 20px;
+  min-height: 100vh;
+  background: #f1f5f9;
+  overflow-x: hidden;
+}
+
+.dashboard-container-full {
+  padding: 24px;
+  background: #f8fafc;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.dashboard-main-full {
+  width: 100%;
+}
+
+/* ===== DASHBOARD CONTAINERS ===== */
+.dashboard-container {
+  padding: 0;
+  background: transparent;
+  min-height: auto;
+}
+
+.dashboard-header {
+  margin-bottom: 24px;
+}
+
+.dashboard-header h1 {
+  font-size: 28px;
+  color: #1e293b;
+  margin-bottom: 8px;
+}
+
+/* Dropdown Rows */
+.filter-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.filter-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.filter-select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  background: #fff;
+  font-size: 14px;
+  color: #1e293b;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.filter-select:focus {
+  outline: none;
+  border-color: #4CAF50;
+  box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.1);
+}
+
+/* Quick Stats */
+.quick-stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: #4CAF50;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.stat-label {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 5px;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Timetable Grid */
+.timetable-section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+.timetable-grid table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.timetable-grid th {
+  background: #f1f5f9;
+  padding: 12px;
+  font-weight: 600;
+  color: #475569;
+  border: 1px solid #e2e8f0;
+}
+
+.timetable-grid td {
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  text-align: center;
+  height: 60px;
+}
+
+/* Booking Entry in Table */
+.booking-entry {
+  background: #e1f5fe;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* Bottom Grid (Recent & Alerts) */
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-section {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.card-section h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #1e293b;
+}
+
+.conflict-alerts-card {
+  background: #fef2f2;
+  border: 1px solid #fee2e2;
+}
+
+.conflict-alerts-card h2 {
+  color: #991b1b;
+}
